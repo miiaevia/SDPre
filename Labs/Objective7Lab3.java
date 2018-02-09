@@ -20,10 +20,7 @@ public class Objective7Lab3 {
         scanner.close();
         break;
       }
-      if ( selection > 3 ) {
-        System.out.println( "ERROR");
-      }
-      if ( selection < 1 ) {
+      if ( selection > 3 || selection < 1 ) {
         System.out.println( "ERROR");
       }
     }
